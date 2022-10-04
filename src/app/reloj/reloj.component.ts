@@ -29,6 +29,11 @@ export class RelojComponent implements OnInit {
     }
   }
 
+  public reiniciarTemporizador(): void {
+    this.segundos = 59;
+    this.minutos = 14;
+  }
+
   //MÉTODOS
   ngOnInit(): void {
     console.log("En el ngOnInit...");

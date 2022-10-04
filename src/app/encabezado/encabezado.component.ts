@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EncabezadoComponent implements OnInit {
 
-  constructor() { }
+  public logo:string="./assets/logo.png";
+  public anchoLogo:number = 100;
+  public titulo:string = "Temporizador";
+
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
