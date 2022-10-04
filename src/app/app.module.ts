@@ -12,7 +12,7 @@ import { PieComponent } from './pie/pie.component';
     AppComponent,
     EncabezadoComponent,
     RelojComponent,
-    PieComponent
+    PieComponent,
   ],
   imports: [
     BrowserModule,
