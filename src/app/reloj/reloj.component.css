@@ -10,4 +10,13 @@ button {
     background-color: rgb(89, 89, 89);
     color:white;
     font-size: 0.25em;
+
+    cursor: pointer;
+}
+input {
+    font-size: 0.3em;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
 }

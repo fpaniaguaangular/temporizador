@@ -1,2 +1,11 @@
-<div><button (click)="arrancarTemporizador()">Arrancar</button>&nbsp;<button (click)="reiniciarTemporizador()">Reiniciar</button></div>
+<div>
+    <button (click)="arrancarTemporizador($event)" style="{{ arrancado ? rojo : verde }}">Arrancar</button>
+    &nbsp;
+    <button (click)="arrancarTemporizador($event)" [style]="colorStart">Arrancar</button>
+    &nbsp;
+    <button (click)="reiniciarTemporizador()" style="{{colorStop}}">Reiniciar</button>
+</div>
+<div>
+    <input type="number" placeholder="Minutos" [(ngModel)]="minutos">
+</div>
 <div>{{minutos}}:{{segundos}}</div>
