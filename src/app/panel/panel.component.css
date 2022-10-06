@@ -1,0 +1,9 @@
+div {
+    width: 50%;
+    margin:auto;
+    height: 4em;
+    background-color: brown;
+    color:white;
+    border-radius: 5px;
+    padding: 3px;
+} 

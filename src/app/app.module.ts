@@ -9,6 +9,7 @@ import { RelojComponent } from './reloj/reloj.component';
 import { PieComponent } from './pie/pie.component';
 
 import { FormsModule } from '@angular/forms';
+import { PanelComponent } from './panel/panel.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FormsModule } from '@angular/forms';
     EncabezadoComponent,
     RelojComponent,
     PieComponent,
+    PanelComponent,
   ],
   imports: [
     BrowserModule,

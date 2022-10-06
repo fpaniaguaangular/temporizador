@@ -54,6 +54,10 @@ export class RelojComponent implements OnInit {
     this.minutos = 14;
   }
 
+  public seleccionarTiempo(evento:any): void {
+    this.minutos = evento.target.value;
+  }
+
   //MÉTODOS
   ngOnInit(): void {
     console.log("RELOJ:En el ngOnInit...");

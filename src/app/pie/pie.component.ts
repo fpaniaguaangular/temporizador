@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Contacto } from '../contacto';
 
 @Component({
   selector: 'app-pie',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PieComponent implements OnInit {
 
+  public contacto:Contacto = {"nombre":"Rosa.SA","ciudad":"Leganés"};
+  
   constructor() { }
 
   ngOnInit(): void {
