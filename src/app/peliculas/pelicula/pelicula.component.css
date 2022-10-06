@@ -1,0 +1,10 @@
+.pelicula {
+    width: 200px;
+    height: 400px;
+    background-color: orange;
+    border-radius: 10px;
+    float:left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}

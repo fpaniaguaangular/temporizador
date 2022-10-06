@@ -1,0 +1,10 @@
+<div>
+    <input type="text" placeholder="Título" [(ngModel)]="nuevaPelicula.titulo">
+    <input type="text" placeholder="Director" [(ngModel)]="nuevaPelicula.director">
+    <input type="text" placeholder="URL de la imagen" [(ngModel)]="nuevaPelicula.imagen">
+    <button (click)="agregarPelicula()">Agregar</button>
+</div>
+
+<div *ngFor="let pelicula of peliculas">
+    <app-pelicula [pelicula]="pelicula"></app-pelicula>
+</div>

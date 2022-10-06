@@ -10,6 +10,8 @@ import { PieComponent } from './pie/pie.component';
 
 import { FormsModule } from '@angular/forms';
 import { PanelComponent } from './panel/panel.component';
+import { ListadoPeliculasComponent } from './peliculas/listado-peliculas/listado-peliculas.component';
+import { PeliculaComponent } from './peliculas/pelicula/pelicula.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { PanelComponent } from './panel/panel.component';
     RelojComponent,
     PieComponent,
     PanelComponent,
+    ListadoPeliculasComponent,
+    PeliculaComponent,
   ],
   imports: [
     BrowserModule,
